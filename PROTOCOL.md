@@ -18,6 +18,8 @@ RDP 在米制三维坐标计算。epsilon=120/1200m（原归一化尺度 .001/.0
 
 AdamW lr=1e-5, weight_decay=1e-5；梯度裁剪1；bf16 混合精度。实测 B8/B16 的吞吐和最长轨迹显存后选择真实 batch，不通过梯度累积冒充 batch64。若容量允许，可在同一 GPU 并行两个独立实验；各自独立模型和优化器。
 
+运行说明：原 PowerShell 进程在第 1 轮后因 Visual Studio/Application Insights 遥测连接被自动审批终止。已检查训练代码无网络调用，并增加 `run_offline.py` 与 `offline_guard/sitecustomize.py`，仅在实验子进程中禁止 Python DNS/外连、设置遥测 opt-out，不修改全局环境。验证阻止 DNS/连接、本地 CUDA 及 70 秒进程存活后，从保存的模型/优化器/随机状态续跑。实际运行通过不包含 PowerShell 的进程树启动；这次中断不改变实验参数和数据。后续可用 `python run_offline.py pipeline` / `python run_offline.py finalize` 在同样限制下复跑。
+
 ## 选择与评估
 
 单个 run 以固定验证 batch 的最低验证 flat-SNN loss 选 checkpoint；不直接跨温度比较 loss 数值。筛选 epsilon/temperature 用验证集 ridge probe 的四个目标 R²（总路径长度、累计转角、曲折度、时长），分别计算全局和 STAR 内宏平均，8 项等权平均。每个目标的 ridge alpha 只用验证集选择，特征和目标缩放只拟合训练集。

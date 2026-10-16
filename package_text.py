@@ -6,6 +6,7 @@ root = Path(__file__).resolve().parent
 sys.stdout.reconfigure(encoding="utf-8")
 paths = [p for p in root.iterdir() if p.is_file() and (p.suffix in (".py", ".md", ".json", ".txt") or p.name == ".gitignore")]
 paths += list((root / "trajectory_encoder").glob("*.py"))
+paths += list((root / "offline_guard").glob("*.py"))
 paths += [p for p in (root / "reports").glob("*.json") if p.name != "pipeline_status.json"]
 if "--final" in sys.argv:
     for d in ("encoder", "runs"):

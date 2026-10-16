@@ -1,0 +1,18 @@
+{
+  "dataset": "petchthwr/ATFMTraj",
+  "dataset_card": "https://huggingface.co/datasets/petchthwr/ATFMTraj",
+  "doi": "10.57967/hf/3356",
+  "stats_filename": "RKSIa_stats.csv",
+  "stats_bytes": 1518,
+  "stats_sha256": "42a6e19f279a1e849cb241e79110de3c4e2b02d122304fa8f5d2f2e981a6db79",
+  "plan_filename": "PLAN.md",
+  "plan_sha256": "36f77f18871d1e06f99e91b0e7b187ab7238a5da7101966b2e1a0db04c8e826c",
+  "offline_probe": {
+    "passed": true,
+    "exit_code": 0,
+    "dns_denied_before_connection": true,
+    "outbound_connection_denied_before_connection": true,
+    "local_CUDA_passed": true
+  },
+  "system_environment_modified": false
+}
