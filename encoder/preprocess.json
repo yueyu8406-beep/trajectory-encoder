@@ -1,0 +1,56 @@
+{
+  "feature_order": [
+    "east_m",
+    "north_m",
+    "up_m",
+    "direction_e",
+    "direction_n",
+    "direction_u",
+    "radius_m",
+    "sin_theta",
+    "cos_theta"
+  ],
+  "mean": [
+    10304.574161639997,
+    -23522.31668090443,
+    2748.5966915601525,
+    -0.17838912392830905,
+    0.38406210091317466,
+    -0.04014499792972262,
+    49815.20457347034,
+    -0.4077455423545754,
+    0.11298656846231975
+  ],
+  "std": [
+    47498.65540135719,
+    25123.12869420193,
+    1730.1494188672093,
+    0.736504181028686,
+    0.5249137671534341,
+    0.03298241118852459,
+    32637.752439697895,
+    0.512853339355775,
+    0.746966572443974
+  ],
+  "preprocessing": {
+    "r_max_m": 120000.0,
+    "stride_s": 5,
+    "include_endpoint": true,
+    "min_points": 30,
+    "rdp_epsilon_m": [
+      120.0,
+      1200.0
+    ],
+    "validation_fraction_of_official_train": 0.15,
+    "split_seed": 2026,
+    "near_duplicate_grid_m": 50.0,
+    "near_duplicate_signature_points": 32
+  },
+  "normalization": "zscore_train_tokens_only",
+  "airport": "RKSI",
+  "absolute_timestamps_available": false,
+  "direction": "forward_difference_repeat_final",
+  "RDP_units": "metres_before_feature_standardization",
+  "time_basis": "relative_elapsed_seconds",
+  "preprocessor_id": "d69735dd5a1587c6720a4f5867a860e6a3b47fdb9ba81b239f80e1dfa5afeb35"
+}

@@ -1,0 +1,101 @@
+{
+  "hyperparameters": {
+    "run_id": "d8_e120_t0p01_s42",
+    "dimension": 8,
+    "epsilon": 120.0,
+    "temperature": 0.01,
+    "seed": 42
+  },
+  "dimension_validation_means": {
+    "8": 0.39535417560069946,
+    "4": 0.17008931510693123,
+    "16": 0.48233845380392243
+  },
+  "selected_dimension": 16,
+  "selected_run": {
+    "run_id": "d16_e120_t0p01_s43",
+    "dimension": 16,
+    "epsilon": 120.0,
+    "temperature": 0.01,
+    "seed": 43
+  },
+  "main_pooling": "sum",
+  "representative_seed": "median validation score",
+  "grid": [
+    {
+      "run_id": "d8_e120_t0p01_s42",
+      "dimension": 8,
+      "epsilon": 120.0,
+      "temperature": 0.01,
+      "seed": 42,
+      "validation_score": 0.3644332891622357
+    },
+    {
+      "run_id": "d8_e120_t0p01_s43",
+      "dimension": 8,
+      "epsilon": 120.0,
+      "temperature": 0.01,
+      "seed": 43,
+      "validation_score": 0.40858712302472705
+    },
+    {
+      "run_id": "d8_e120_t0p01_s44",
+      "dimension": 8,
+      "epsilon": 120.0,
+      "temperature": 0.01,
+      "seed": 44,
+      "validation_score": 0.41304211461513557
+    },
+    {
+      "run_id": "d4_e120_t0p01_s42",
+      "dimension": 4,
+      "epsilon": 120.0,
+      "temperature": 0.01,
+      "seed": 42,
+      "validation_score": 0.1766529717933395
+    },
+    {
+      "run_id": "d4_e120_t0p01_s43",
+      "dimension": 4,
+      "epsilon": 120.0,
+      "temperature": 0.01,
+      "seed": 43,
+      "validation_score": 0.16246210508519415
+    },
+    {
+      "run_id": "d4_e120_t0p01_s44",
+      "dimension": 4,
+      "epsilon": 120.0,
+      "temperature": 0.01,
+      "seed": 44,
+      "validation_score": 0.17115286844226
+    },
+    {
+      "run_id": "d16_e120_t0p01_s42",
+      "dimension": 16,
+      "epsilon": 120.0,
+      "temperature": 0.01,
+      "seed": 42,
+      "validation_score": 0.46623664087879174
+    },
+    {
+      "run_id": "d16_e120_t0p01_s43",
+      "dimension": 16,
+      "epsilon": 120.0,
+      "temperature": 0.01,
+      "seed": 43,
+      "validation_score": 0.4841755994708573
+    },
+    {
+      "run_id": "d16_e120_t0p01_s44",
+      "dimension": 16,
+      "epsilon": 120.0,
+      "temperature": 0.01,
+      "seed": 44,
+      "validation_score": 0.4966031210621182
+    }
+  ],
+  "frozen_before_TEST": true,
+  "test_not_loaded_for_selection": true,
+  "frozen_unix": 1792150893.4104195
+}

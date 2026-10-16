@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "tokens_shape": [
+    321,
+    8
+  ],
+  "embedding_shape": [
+    8
+  ],
+  "frozen": true,
+  "example_split": "train",
+  "device": "cpu"
+}

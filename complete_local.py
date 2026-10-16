@@ -1,5 +1,6 @@
 """Resume the frozen training grid and finish local evaluation with no outbound networking."""
 import os
+import argparse
 from pathlib import Path
 import subprocess
 import sys
@@ -15,6 +16,10 @@ stages = [("training", ["-m", "trajectory_encoder.pipeline"]),
           ("confounding_diagnostics", ["posthoc_diagnostics.py"]),
           ("report", ["make_report.py"]),
           ("verify_delivery", ["verify_delivery.py"])]
+parser = argparse.ArgumentParser()
+parser.add_argument("--start-at", choices=[name for name, _ in stages], default="training")
+options = parser.parse_args()
+stages = stages[[name for name, _ in stages].index(options.start_at):]
 for name, args in stages:
     status = {"stage": name, "started_unix": time.time(), "state": "running"}
     (root / "reports" / "completion_status.json").write_text(json.dumps(status), encoding="utf-8")

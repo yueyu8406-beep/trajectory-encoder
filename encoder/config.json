@@ -1,0 +1,159 @@
+{
+  "run_id": "d16_e120_t0p01_s43",
+  "dimension": 16,
+  "epsilon_m": 120.0,
+  "temperature": 0.01,
+  "seed": 43,
+  "batch_size": 16,
+  "amp": "bf16",
+  "epochs": 30,
+  "model": {
+    "input_dim": 9,
+    "model_dim": 256,
+    "ffn_dim": 512,
+    "heads": 4,
+    "layers": 4,
+    "dropout": 0.35,
+    "mask_probability": 0.2
+  },
+  "training": {
+    "epochs": 30,
+    "learning_rate": 1e-05,
+    "weight_decay": 1e-05,
+    "temperatures": [
+      0.01,
+      0.05
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "dimensions": [
+      8,
+      4,
+      16
+    ],
+    "batch_candidates": [
+      8,
+      16
+    ],
+    "amp": "bf16",
+    "gradient_clip": 1.0,
+    "loss_chunk_size": 512,
+    "full_loss_token_limit": 7000,
+    "cpu_threads_per_worker": 2,
+    "max_parallel_training_workers": 2
+  },
+  "code_sha256": "95b5c67853950df7fece2ef1c85050a3543881e48037bb4bfde2849543b5b326",
+  "data_sha256": "bdd1bfdeb1e91f0afa831984496be16a59beaa27ecb1625d7697678a3ee5999b",
+  "preprocessor_id": "d69735dd5a1587c6720a4f5867a860e6a3b47fdb9ba81b239f80e1dfa5afeb35",
+  "checkpoint_selection": "minimum deterministic validation flat-SNN loss, all epochs",
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "torch": "2.7.1+cu128",
+  "numpy": "2.2.6",
+  "pooling": "sum",
+  "pooling_post_L2": false,
+  "best_epoch": 30,
+  "selection": {
+    "hyperparameters": {
+      "run_id": "d8_e120_t0p01_s42",
+      "dimension": 8,
+      "epsilon": 120.0,
+      "temperature": 0.01,
+      "seed": 42
+    },
+    "dimension_validation_means": {
+      "8": 0.39535417560069946,
+      "4": 0.17008931510693123,
+      "16": 0.48233845380392243
+    },
+    "selected_dimension": 16,
+    "selected_run": {
+      "run_id": "d16_e120_t0p01_s43",
+      "dimension": 16,
+      "epsilon": 120.0,
+      "temperature": 0.01,
+      "seed": 43
+    },
+    "main_pooling": "sum",
+    "representative_seed": "median validation score",
+    "grid": [
+      {
+        "run_id": "d8_e120_t0p01_s42",
+        "dimension": 8,
+        "epsilon": 120.0,
+        "temperature": 0.01,
+        "seed": 42,
+        "validation_score": 0.3644332891622357
+      },
+      {
+        "run_id": "d8_e120_t0p01_s43",
+        "dimension": 8,
+        "epsilon": 120.0,
+        "temperature": 0.01,
+        "seed": 43,
+        "validation_score": 0.40858712302472705
+      },
+      {
+        "run_id": "d8_e120_t0p01_s44",
+        "dimension": 8,
+        "epsilon": 120.0,
+        "temperature": 0.01,
+        "seed": 44,
+        "validation_score": 0.41304211461513557
+      },
+      {
+        "run_id": "d4_e120_t0p01_s42",
+        "dimension": 4,
+        "epsilon": 120.0,
+        "temperature": 0.01,
+        "seed": 42,
+        "validation_score": 0.1766529717933395
+      },
+      {
+        "run_id": "d4_e120_t0p01_s43",
+        "dimension": 4,
+        "epsilon": 120.0,
+        "temperature": 0.01,
+        "seed": 43,
+        "validation_score": 0.16246210508519415
+      },
+      {
+        "run_id": "d4_e120_t0p01_s44",
+        "dimension": 4,
+        "epsilon": 120.0,
+        "temperature": 0.01,
+        "seed": 44,
+        "validation_score": 0.17115286844226
+      },
+      {
+        "run_id": "d16_e120_t0p01_s42",
+        "dimension": 16,
+        "epsilon": 120.0,
+        "temperature": 0.01,
+        "seed": 42,
+        "validation_score": 0.46623664087879174
+      },
+      {
+        "run_id": "d16_e120_t0p01_s43",
+        "dimension": 16,
+        "epsilon": 120.0,
+        "temperature": 0.01,
+        "seed": 43,
+        "validation_score": 0.4841755994708573
+      },
+      {
+        "run_id": "d16_e120_t0p01_s44",
+        "dimension": 16,
+        "epsilon": 120.0,
+        "temperature": 0.01,
+        "seed": 44,
+        "validation_score": 0.4966031210621182
+      }
+    ],
+    "frozen_before_TEST": true,
+    "test_not_loaded_for_selection": true,
+    "frozen_unix": 1792150893.4104195
+  }
+}

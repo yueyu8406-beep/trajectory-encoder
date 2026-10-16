@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "strict_state_dict_load": true,
+  "frozen_parameters": true,
+  "repeated_feature_rebuild_max_token_error": 1.0877847671508789e-05,
+  "example_trajectory_id": "RKSIa:TEST:0",
+  "shape_tokens": [
+    184,
+    16
+  ],
+  "shape_embedding": [
+    16
+  ],
+  "selected_weights_sha256": "5eb1ed473658a0011c7a3257ea462b58cb6261633317cec5f6aca6ad52c9a035"
+}

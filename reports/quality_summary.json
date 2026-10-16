@@ -1,0 +1,25 @@
+{
+  "training_complete": true,
+  "selected_run": "d16_e120_t0p01_s43",
+  "within_STAR_trained": {
+    "path_m": 0.6567615889593319,
+    "curvature_rad": 0.28364072170179894,
+    "sinuosity": 0.643523769690554,
+    "duration_s": 0.5786551360952445
+  },
+  "within_STAR_untrained": {
+    "path_m": 0.9461444970195794,
+    "curvature_rad": 0.47221856491825964,
+    "sinuosity": 0.9430324299225943,
+    "duration_s": 0.9942146067293534
+  },
+  "within_STAR_length_only": {
+    "path_m": 0.8008467494111605,
+    "curvature_rad": 0.3518823402466426,
+    "sinuosity": 0.7938139329746197,
+    "duration_s": 0.9999326962713757
+  },
+  "proxies_numerically_above_both_baselines": [],
+  "complexity_application_validated": false,
+  "interpretation": "所选模型在四个代理上均未超过两种基线中的较强者，因此这些测试尚未证明自监督训练带来了额外的几何代理预测能力。"
+}

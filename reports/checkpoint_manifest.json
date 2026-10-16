@@ -1,0 +1,83 @@
+[
+  {
+    "run_id": "d8_e120_t0p01_s42",
+    "dimension": 8,
+    "seed": 42,
+    "best_epoch": 30,
+    "path": "checkpoints/d8_e120_t0p01_s42.pt",
+    "bytes": 8454923,
+    "sha256": "9b2aada53b9cedd999820413970496426f7050be375e5991248698096dfd614c"
+  },
+  {
+    "run_id": "d8_e120_t0p01_s43",
+    "dimension": 8,
+    "seed": 43,
+    "best_epoch": 30,
+    "path": "checkpoints/d8_e120_t0p01_s43.pt",
+    "bytes": 8454923,
+    "sha256": "684d5706b891352a55ac9605125d63db5c6222616ad7647d2a907519a6dbf8ce"
+  },
+  {
+    "run_id": "d8_e120_t0p01_s44",
+    "dimension": 8,
+    "seed": 44,
+    "best_epoch": 30,
+    "path": "checkpoints/d8_e120_t0p01_s44.pt",
+    "bytes": 8454923,
+    "sha256": "381cb59dc9a46ecb6ae512a8d6337dec4383643415601a2f26b295615d160733"
+  },
+  {
+    "run_id": "d4_e120_t0p01_s42",
+    "dimension": 4,
+    "seed": 42,
+    "best_epoch": 30,
+    "path": "checkpoints/d4_e120_t0p01_s42.pt",
+    "bytes": 8450827,
+    "sha256": "fe1797a2b97c20a1b4fcd0cfd2ff8afc593c093ec4021895da9ee1b67860d4bc"
+  },
+  {
+    "run_id": "d4_e120_t0p01_s43",
+    "dimension": 4,
+    "seed": 43,
+    "best_epoch": 30,
+    "path": "checkpoints/d4_e120_t0p01_s43.pt",
+    "bytes": 8450827,
+    "sha256": "56e5bdd8311aad295f1c221ee4785c23f5ac48308337a91ec67317d9b601a2c0"
+  },
+  {
+    "run_id": "d4_e120_t0p01_s44",
+    "dimension": 4,
+    "seed": 44,
+    "best_epoch": 29,
+    "path": "checkpoints/d4_e120_t0p01_s44.pt",
+    "bytes": 8450827,
+    "sha256": "56dbb274e8784c02a74e53976618344b6f627c1f8db5c947c5a94fdd0dc8dee9"
+  },
+  {
+    "run_id": "d16_e120_t0p01_s42",
+    "dimension": 16,
+    "seed": 42,
+    "best_epoch": 30,
+    "path": "checkpoints/d16_e120_t0p01_s42.pt",
+    "bytes": 8463237,
+    "sha256": "c10a9ac707f812a8f258973396574de4db8e7f091f631610c4cf416bdc066095"
+  },
+  {
+    "run_id": "d16_e120_t0p01_s43",
+    "dimension": 16,
+    "seed": 43,
+    "best_epoch": 30,
+    "path": "checkpoints/d16_e120_t0p01_s43.pt",
+    "bytes": 8463237,
+    "sha256": "5eb1ed473658a0011c7a3257ea462b58cb6261633317cec5f6aca6ad52c9a035"
+  },
+  {
+    "run_id": "d16_e120_t0p01_s44",
+    "dimension": 16,
+    "seed": 44,
+    "best_epoch": 30,
+    "path": "checkpoints/d16_e120_t0p01_s44.pt",
+    "bytes": 8463237,
+    "sha256": "019fed951f8746a5b23aa434ef51b038ba430db3ce1d3fa86b69d9697c2fe012"
+  }
+]

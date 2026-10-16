@@ -1,0 +1,55 @@
+{
+  "run_id": "d16_e120_t0p01_s44",
+  "dimension": 16,
+  "epsilon_m": 120.0,
+  "temperature": 0.01,
+  "seed": 44,
+  "batch_size": 16,
+  "amp": "bf16",
+  "epochs": 30,
+  "model": {
+    "input_dim": 9,
+    "model_dim": 256,
+    "ffn_dim": 512,
+    "heads": 4,
+    "layers": 4,
+    "dropout": 0.35,
+    "mask_probability": 0.2
+  },
+  "training": {
+    "epochs": 30,
+    "learning_rate": 1e-05,
+    "weight_decay": 1e-05,
+    "temperatures": [
+      0.01,
+      0.05
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "dimensions": [
+      8,
+      4,
+      16
+    ],
+    "batch_candidates": [
+      8,
+      16
+    ],
+    "amp": "bf16",
+    "gradient_clip": 1.0,
+    "loss_chunk_size": 512,
+    "full_loss_token_limit": 7000,
+    "cpu_threads_per_worker": 2,
+    "max_parallel_training_workers": 2
+  },
+  "code_sha256": "95b5c67853950df7fece2ef1c85050a3543881e48037bb4bfde2849543b5b326",
+  "data_sha256": "bdd1bfdeb1e91f0afa831984496be16a59beaa27ecb1625d7697678a3ee5999b",
+  "preprocessor_id": "d69735dd5a1587c6720a4f5867a860e6a3b47fdb9ba81b239f80e1dfa5afeb35",
+  "checkpoint_selection": "minimum deterministic validation flat-SNN loss, all epochs",
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "torch": "2.7.1+cu128",
+  "numpy": "2.2.6"
+}
