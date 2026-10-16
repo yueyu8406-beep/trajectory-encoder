@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "run_id": "d8_e120_t0p01_s42",
+      "dimension": 8,
+      "epsilon": 120.0,
+      "temperature": 0.01,
+      "seed": 42,
+      "validation_score": 0.3644332891622357
+    },
+    {
+      "run_id": "d8_e120_t0p05_s42",
+      "dimension": 8,
+      "epsilon": 120.0,
+      "temperature": 0.05,
+      "seed": 42,
+      "validation_score": 0.27372487112029514
+    },
+    {
+      "run_id": "d8_e1200_t0p01_s42",
+      "dimension": 8,
+      "epsilon": 1200.0,
+      "temperature": 0.01,
+      "seed": 42,
+      "validation_score": 0.27604236600005033
+    },
+    {
+      "run_id": "d8_e1200_t0p05_s42",
+      "dimension": 8,
+      "epsilon": 1200.0,
+      "temperature": 0.05,
+      "seed": 42,
+      "validation_score": 0.2955190837034899
+    }
+  ],
+  "chosen": {
+    "run_id": "d8_e120_t0p01_s42",
+    "dimension": 8,
+    "epsilon": 120.0,
+    "temperature": 0.01,
+    "seed": 42
+  },
+  "selection_data": "validation only"
+}

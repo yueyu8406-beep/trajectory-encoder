@@ -10,8 +10,8 @@
       "mean_regular_step_seconds": 0.02506105000011303,
       "estimated_train_epoch_seconds": 21.652747200097657,
       "longest_batch_step_seconds": 0.04001630000129808,
-      "peak_allocated_MiB": 628.0,
-      "peak_reserved_MiB": 746.0,
+      "peak_allocated_MiB": 628,
+      "peak_reserved_MiB": 746,
       "longest_tokens": 4269
     },
     {
@@ -21,10 +21,12 @@
       "estimated_train_epoch_seconds": 12.903157440040378,
       "longest_batch_step_seconds": 0.09180890000061481,
       "peak_allocated_MiB": 547.5087890625,
-      "peak_reserved_MiB": 1070.0,
+      "peak_reserved_MiB": 1070,
       "longest_tokens": 8068
     }
   ],
   "selected_batch_size": 16,
-  "max_parallel_workers": 2
+  "max_parallel_workers": 1,
+  "initial_max_parallel_workers": 2,
+  "runtime_fallback": "One concurrent worker stopped advancing after epoch 20 for more than 5 minutes while the other completed; resume workers sequentially from saved states."
 }

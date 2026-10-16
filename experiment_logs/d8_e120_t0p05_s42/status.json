@@ -1,0 +1,9 @@
+{
+  "phase": "complete",
+  "epochs": 30,
+  "best_epoch": 29,
+  "best_validation_loss": -0.9752062244683154,
+  "worker_elapsed_s": 647.425461769104,
+  "best_checkpoint_sha256": "7fffb5b4d44588cd02afabf2db7033bf901cd5d1c1c3602b82685a665206af4c",
+  "updated_unix": 1792146301.861742
+}

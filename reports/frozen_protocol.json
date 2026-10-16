@@ -32,7 +32,7 @@
     }
   ],
   "batch_size": 16,
-  "concurrency": 2,
+  "concurrency": 1,
   "checkpoint_rule": "minimum validation flat-SNN loss within each run",
   "hyperparameter_rule": "maximum validation geometric-proxy ridge R2 mean across four targets, global and within-STAR, sum pooling",
   "dimension_rule": "maximum three-seed mean of same validation score, sum pooling; lower dimension breaks exact ties",

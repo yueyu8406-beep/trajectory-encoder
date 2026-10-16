@@ -1,0 +1,17 @@
+[
+  {
+    "time_utc": "2026-10-16T10:26:02.511Z",
+    "event": "parallel_worker_stalled",
+    "action": "Stopped only this experiment process tree; set concurrency=1 and resume checkpoints without model/data/hyperparameter changes",
+    "preserved_completed_run": "d8_e120_t0p05_s42",
+    "stalled_run": "d8_e120_t0p01_s42",
+    "last_saved_epoch": 20
+  },
+  {
+    "event": "large_tool_response_disconnected_execution",
+    "last_saved_run": "d8_e1200_t0p01_s42",
+    "last_saved_epoch": 25,
+    "resumed_utc": "2026-10-16T10:48:15.770Z",
+    "action": "Resumed unchanged checkpoints; limit all binary tool payloads to 131070 raw bytes per part; reconstruct and verify in repository"
+  }
+]

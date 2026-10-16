@@ -1,0 +1,617 @@
+{
+  "sum": {
+    "probes": {
+      "global_validation_R2": {
+        "path_m": 0.12517086934968202,
+        "curvature_rad": 0.07573862637096496,
+        "sinuosity": 0.11962113750049197,
+        "duration_s": 0.04361824707405482
+      },
+      "global_alpha": {
+        "path_m": 0.01,
+        "curvature_rad": 100.0,
+        "sinuosity": 0.01,
+        "duration_s": 0.01
+      },
+      "within_STAR": {
+        "GONAV 3M": {
+          "n_train": 356,
+          "n_val": 59,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 0.01,
+            "curvature_rad": 0.01,
+            "sinuosity": 0.01,
+            "duration_s": 0.01
+          },
+          "validation_R2": {
+            "path_m": 0.5877131854138398,
+            "curvature_rad": 0.04984439607888724,
+            "sinuosity": 0.5872563578710344,
+            "duration_s": 0.4898389073572259
+          }
+        },
+        "GUKDO 2E": {
+          "n_train": 1672,
+          "n_val": 291,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 0.01,
+            "curvature_rad": 0.01,
+            "sinuosity": 0.01,
+            "duration_s": 0.01
+          },
+          "validation_R2": {
+            "path_m": 0.3203961609045468,
+            "curvature_rad": 0.08783139591937272,
+            "sinuosity": 0.3228223875230921,
+            "duration_s": 0.28521878035515125
+          }
+        },
+        "GUKDO 2H": {
+          "n_train": 463,
+          "n_val": 85,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 100.0,
+            "curvature_rad": 100.0,
+            "sinuosity": 100.0,
+            "duration_s": 10.0
+          },
+          "validation_R2": {
+            "path_m": 0.24474467912343445,
+            "curvature_rad": 0.024533162679463705,
+            "sinuosity": 0.2251562634198201,
+            "duration_s": 0.2124773156485218
+          }
+        },
+        "KARBU 2E": {
+          "n_train": 384,
+          "n_val": 64,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 0.01,
+            "curvature_rad": 0.01,
+            "sinuosity": 0.01,
+            "duration_s": 0.01
+          },
+          "validation_R2": {
+            "path_m": 0.3976017664583358,
+            "curvature_rad": 0.26540856739593033,
+            "sinuosity": 0.4001402422968616,
+            "duration_s": 0.5110563306782996
+          }
+        },
+        "KARBU 2H": {
+          "n_train": 157,
+          "n_val": 27,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 1.0,
+            "curvature_rad": 100.0,
+            "sinuosity": 0.01,
+            "duration_s": 0.01
+          },
+          "validation_R2": {
+            "path_m": 0.37397251042616597,
+            "curvature_rad": -0.15793537968909277,
+            "sinuosity": 0.34658445805081683,
+            "duration_s": 0.22884376552844998
+          }
+        },
+        "OLMEN 2E": {
+          "n_train": 1624,
+          "n_val": 304,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 100.0,
+            "curvature_rad": 0.01,
+            "sinuosity": 100.0,
+            "duration_s": 10.0
+          },
+          "validation_R2": {
+            "path_m": 0.21423894651137676,
+            "curvature_rad": 0.1270486252974906,
+            "sinuosity": 0.21467745892439005,
+            "duration_s": 0.2896675668211076
+          }
+        },
+        "OLMEN 2H": {
+          "n_train": 469,
+          "n_val": 65,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 100.0,
+            "curvature_rad": 100.0,
+            "sinuosity": 100.0,
+            "duration_s": 100.0
+          },
+          "validation_R2": {
+            "path_m": -0.12319053851314887,
+            "curvature_rad": -0.07767323950794003,
+            "sinuosity": -0.11628928090557777,
+            "duration_s": -0.13627018185329964
+          }
+        },
+        "REBIT 2H": {
+          "n_train": 1741,
+          "n_val": 317,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 0.01,
+            "curvature_rad": 0.01,
+            "sinuosity": 0.01,
+            "duration_s": 0.01
+          },
+          "validation_R2": {
+            "path_m": 0.5053434808604225,
+            "curvature_rad": 0.366902342946964,
+            "sinuosity": 0.4984876744625255,
+            "duration_s": 0.47414442945862056
+          }
+        }
+      },
+      "within_STAR_validation_macro_R2": {
+        "path_m": 0.31510252389812166,
+        "curvature_rad": 0.08574498389013448,
+        "sinuosity": 0.30985444520537037,
+        "duration_s": 0.29437211424925963
+      },
+      "validation_selection_score": 0.17115286844226
+    },
+    "diagnostics": {
+      "n": 1214,
+      "finite": true,
+      "variance_per_dimension": [
+        3928.450519675804,
+        6783.208316408327,
+        5927.096136349619,
+        3547.579076159797
+      ],
+      "effective_rank": 3.450926948402707,
+      "dimension": 4,
+      "collapsed_dimensions": 0,
+      "pair_distance_quantiles": [
+        11.134649286291276,
+        70.46522417408025,
+        188.91458030881955,
+        302.48003255279593,
+        480.76647505791203
+      ],
+      "norm_length_pearson": 0.561954434573304,
+      "length_strata": [
+        {
+          "n": 392,
+          "length_lower": 159.0,
+          "length_upper": 200.0,
+          "norm_mean": 118.94430200130967,
+          "variance_mean": 3456.4420231983854
+        },
+        {
+          "n": 417,
+          "length_lower": 200.0,
+          "length_upper": 233.66666666666663,
+          "norm_mean": 133.28247347199567,
+          "variance_mean": 4529.49444474559
+        },
+        {
+          "n": 405,
+          "length_lower": 233.66666666666663,
+          "length_upper": 495.0,
+          "norm_mean": 166.4082764830451,
+          "variance_mean": 6904.430627698171
+        }
+      ]
+    }
+  },
+  "mean": {
+    "probes": {
+      "global_validation_R2": {
+        "path_m": 0.1244771038238004,
+        "curvature_rad": 0.08991973506025452,
+        "sinuosity": 0.12512791293170256,
+        "duration_s": 0.059199025338054545
+      },
+      "global_alpha": {
+        "path_m": 0.01,
+        "curvature_rad": 0.01,
+        "sinuosity": 0.01,
+        "duration_s": 0.01
+      },
+      "within_STAR": {
+        "GONAV 3M": {
+          "n_train": 356,
+          "n_val": 59,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 0.01,
+            "curvature_rad": 0.01,
+            "sinuosity": 0.01,
+            "duration_s": 0.01
+          },
+          "validation_R2": {
+            "path_m": 0.6058919188656408,
+            "curvature_rad": 0.10518643951562867,
+            "sinuosity": 0.6000459508139975,
+            "duration_s": 0.48716746116194143
+          }
+        },
+        "GUKDO 2E": {
+          "n_train": 1672,
+          "n_val": 291,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 10.0,
+            "curvature_rad": 0.01,
+            "sinuosity": 10.0,
+            "duration_s": 10.0
+          },
+          "validation_R2": {
+            "path_m": 0.45145434194574263,
+            "curvature_rad": 0.15645589532536264,
+            "sinuosity": 0.4460106338239501,
+            "duration_s": 0.2567732852809451
+          }
+        },
+        "GUKDO 2H": {
+          "n_train": 463,
+          "n_val": 85,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 1.0,
+            "curvature_rad": 100.0,
+            "sinuosity": 0.01,
+            "duration_s": 0.01
+          },
+          "validation_R2": {
+            "path_m": 0.4229643541866783,
+            "curvature_rad": 0.11278212378506636,
+            "sinuosity": 0.4025077032634322,
+            "duration_s": 0.3844405457584912
+          }
+        },
+        "KARBU 2E": {
+          "n_train": 384,
+          "n_val": 64,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 100.0,
+            "curvature_rad": 100.0,
+            "sinuosity": 100.0,
+            "duration_s": 100.0
+          },
+          "validation_R2": {
+            "path_m": 0.19412271669924108,
+            "curvature_rad": 0.09132250276339648,
+            "sinuosity": 0.18848246951210268,
+            "duration_s": 0.04811342396648277
+          }
+        },
+        "KARBU 2H": {
+          "n_train": 157,
+          "n_val": 27,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 10.0,
+            "curvature_rad": 100.0,
+            "sinuosity": 10.0,
+            "duration_s": 0.01
+          },
+          "validation_R2": {
+            "path_m": 0.5341717715238581,
+            "curvature_rad": -0.13965197685250375,
+            "sinuosity": 0.48681720955131347,
+            "duration_s": 0.5121385472204605
+          }
+        },
+        "OLMEN 2E": {
+          "n_train": 1624,
+          "n_val": 304,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 100.0,
+            "curvature_rad": 100.0,
+            "sinuosity": 100.0,
+            "duration_s": 0.01
+          },
+          "validation_R2": {
+            "path_m": 0.051053561901551636,
+            "curvature_rad": 0.14818213777708333,
+            "sinuosity": 0.05253575666877264,
+            "duration_s": 0.10488627505107218
+          }
+        },
+        "OLMEN 2H": {
+          "n_train": 469,
+          "n_val": 65,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 10.0,
+            "curvature_rad": 0.01,
+            "sinuosity": 10.0,
+            "duration_s": 10.0
+          },
+          "validation_R2": {
+            "path_m": 0.16042514235115024,
+            "curvature_rad": 0.1233506979409047,
+            "sinuosity": 0.17475652502679972,
+            "duration_s": 0.13521251558648884
+          }
+        },
+        "REBIT 2H": {
+          "n_train": 1741,
+          "n_val": 317,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 0.01,
+            "curvature_rad": 10.0,
+            "sinuosity": 0.01,
+            "duration_s": 0.01
+          },
+          "validation_R2": {
+            "path_m": 0.6947108245896655,
+            "curvature_rad": 0.5891761394650801,
+            "sinuosity": 0.6855510577152948,
+            "duration_s": 0.6765683485301687
+          }
+        }
+      },
+      "within_STAR_validation_macro_R2": {
+        "path_m": 0.38934932900794106,
+        "curvature_rad": 0.1483504949650023,
+        "sinuosity": 0.37958841329695786,
+        "duration_s": 0.3256625503195063
+      },
+      "validation_selection_score": 0.20520932059290242
+    },
+    "diagnostics": {
+      "n": 1214,
+      "finite": true,
+      "variance_per_dimension": [
+        0.08066407963321591,
+        0.12541658618039175,
+        0.11612188883323273,
+        0.06777742196368419
+      ],
+      "effective_rank": 3.4068667368589662,
+      "dimension": 4,
+      "collapsed_dimensions": 0,
+      "pair_distance_quantiles": [
+        0.07632283221595124,
+        0.3213584261950089,
+        0.8490769241652739,
+        1.284222332232519,
+        1.6183022946434893
+      ],
+      "norm_length_pearson": -0.1577274411034728,
+      "length_strata": [
+        {
+          "n": 392,
+          "length_lower": 159.0,
+          "length_upper": 200.0,
+          "norm_mean": 0.6408110537204097,
+          "variance_mean": 0.09985262020412121
+        },
+        {
+          "n": 417,
+          "length_lower": 200.0,
+          "length_upper": 233.66666666666663,
+          "norm_mean": 0.6243484964132557,
+          "variance_mean": 0.09926809342910084
+        },
+        {
+          "n": 405,
+          "length_lower": 233.66666666666663,
+          "length_upper": 495.0,
+          "norm_mean": 0.6035480357140863,
+          "variance_mean": 0.08987972199202043
+        }
+      ]
+    }
+  },
+  "gem2": {
+    "probes": {
+      "global_validation_R2": {
+        "path_m": 0.06965176057867006,
+        "curvature_rad": 0.06471639491218095,
+        "sinuosity": 0.06262187948156084,
+        "duration_s": 0.013276114790335525
+      },
+      "global_alpha": {
+        "path_m": 100.0,
+        "curvature_rad": 100.0,
+        "sinuosity": 100.0,
+        "duration_s": 100.0
+      },
+      "within_STAR": {
+        "GONAV 3M": {
+          "n_train": 356,
+          "n_val": 59,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 0.01,
+            "curvature_rad": 1.0,
+            "sinuosity": 0.01,
+            "duration_s": 0.01
+          },
+          "validation_R2": {
+            "path_m": 0.6739234444737372,
+            "curvature_rad": 0.19070652196685955,
+            "sinuosity": 0.6679179475000869,
+            "duration_s": 0.6105364377109468
+          }
+        },
+        "GUKDO 2E": {
+          "n_train": 1672,
+          "n_val": 291,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 100.0,
+            "curvature_rad": 0.01,
+            "sinuosity": 100.0,
+            "duration_s": 10.0
+          },
+          "validation_R2": {
+            "path_m": 0.3058998299806859,
+            "curvature_rad": 0.14316716192714352,
+            "sinuosity": 0.29838748488507005,
+            "duration_s": 0.19904618487001235
+          }
+        },
+        "GUKDO 2H": {
+          "n_train": 463,
+          "n_val": 85,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 0.01,
+            "curvature_rad": 100.0,
+            "sinuosity": 0.01,
+            "duration_s": 0.01
+          },
+          "validation_R2": {
+            "path_m": 0.3713851488968065,
+            "curvature_rad": 0.15172949385198298,
+            "sinuosity": 0.35688465783172707,
+            "duration_s": 0.34652909780352903
+          }
+        },
+        "KARBU 2E": {
+          "n_train": 384,
+          "n_val": 64,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 100.0,
+            "curvature_rad": 100.0,
+            "sinuosity": 100.0,
+            "duration_s": 100.0
+          },
+          "validation_R2": {
+            "path_m": 0.13868067520171168,
+            "curvature_rad": 0.06795790667791946,
+            "sinuosity": 0.131388607066659,
+            "duration_s": 0.022482334355149347
+          }
+        },
+        "KARBU 2H": {
+          "n_train": 157,
+          "n_val": 27,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 1.0,
+            "curvature_rad": 0.01,
+            "sinuosity": 1.0,
+            "duration_s": 1.0
+          },
+          "validation_R2": {
+            "path_m": 0.5204347324913765,
+            "curvature_rad": -0.0894756755796784,
+            "sinuosity": 0.5021479148524217,
+            "duration_s": 0.4267825009424764
+          }
+        },
+        "OLMEN 2E": {
+          "n_train": 1624,
+          "n_val": 304,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 10.0,
+            "curvature_rad": 0.01,
+            "sinuosity": 10.0,
+            "duration_s": 0.01
+          },
+          "validation_R2": {
+            "path_m": 0.11550323901126003,
+            "curvature_rad": 0.16164882373188283,
+            "sinuosity": 0.11714286147603159,
+            "duration_s": 0.16713378128992573
+          }
+        },
+        "OLMEN 2H": {
+          "n_train": 469,
+          "n_val": 65,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 10.0,
+            "curvature_rad": 1.0,
+            "sinuosity": 10.0,
+            "duration_s": 0.01
+          },
+          "validation_R2": {
+            "path_m": 0.21373094249919877,
+            "curvature_rad": 0.1176194975212187,
+            "sinuosity": 0.22576673149331372,
+            "duration_s": 0.18799851111278465
+          }
+        },
+        "REBIT 2H": {
+          "n_train": 1741,
+          "n_val": 317,
+          "n_test": 0,
+          "alpha": {
+            "path_m": 0.01,
+            "curvature_rad": 0.01,
+            "sinuosity": 0.01,
+            "duration_s": 0.01
+          },
+          "validation_R2": {
+            "path_m": 0.624288687919988,
+            "curvature_rad": 0.37585126788640943,
+            "sinuosity": 0.6173443783347143,
+            "duration_s": 0.6045244699006602
+          }
+        }
+      },
+      "within_STAR_validation_macro_R2": {
+        "path_m": 0.3704808375593456,
+        "curvature_rad": 0.13990062474796727,
+        "sinuosity": 0.36462257293000305,
+        "duration_s": 0.3206291647481856
+      },
+      "validation_selection_score": 0.1757374187185311
+    },
+    "diagnostics": {
+      "n": 1214,
+      "finite": true,
+      "variance_per_dimension": [
+        0.16111178716414187,
+        0.19227659466952113,
+        0.19537610669593009,
+        0.13352105288335525
+      ],
+      "effective_rank": 3.4840088938194733,
+      "dimension": 4,
+      "collapsed_dimensions": 0,
+      "pair_distance_quantiles": [
+        0.08033104533299879,
+        0.3908833053782345,
+        1.1486597623061532,
+        1.6486678237732175,
+        1.9387694210247184
+      ],
+      "norm_length_pearson": -0.15359614520446255,
+      "length_strata": [
+        {
+          "n": 392,
+          "length_lower": 159.0,
+          "length_upper": 200.0,
+          "norm_mean": 0.8413833499459156,
+          "variance_mean": 0.17224213918819176
+        },
+        {
+          "n": 417,
+          "length_lower": 200.0,
+          "length_upper": 233.66666666666663,
+          "norm_mean": 0.8420262667772047,
+          "variance_mean": 0.17656410034029194
+        },
+        {
+          "n": 405,
+          "length_lower": 233.66666666666663,
+          "length_upper": 495.0,
+          "norm_mean": 0.818761603292631,
+          "variance_mean": 0.1590982619586015
+        }
+      ]
+    }
+  }
+}

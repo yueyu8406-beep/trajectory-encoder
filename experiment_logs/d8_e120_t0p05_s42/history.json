@@ -1,0 +1,272 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.507921567453576,
+    "validation_loss": 0.10596566881284458,
+    "best_epoch": 1,
+    "seconds": 19.535732984542847,
+    "gradient_norm_max_before_clip": 11.595131874084473,
+    "peak_allocated_MiB": 1052.6865234375
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.5910597699490008,
+    "validation_loss": -0.17462529912604718,
+    "best_epoch": 2,
+    "seconds": 19.664315700531006,
+    "gradient_norm_max_before_clip": 9.305428504943848,
+    "peak_allocated_MiB": 1020.05517578125
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.34726159892124325,
+    "validation_loss": -0.3207673728510104,
+    "best_epoch": 3,
+    "seconds": 19.348748922348022,
+    "gradient_norm_max_before_clip": 10.1908597946167,
+    "peak_allocated_MiB": 1070.3515625
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.18807383548780077,
+    "validation_loss": -0.41910896436989686,
+    "best_epoch": 4,
+    "seconds": 19.394670963287354,
+    "gradient_norm_max_before_clip": 8.281658172607422,
+    "peak_allocated_MiB": 1070.3515625
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.07257266846339684,
+    "validation_loss": -0.5046034969529621,
+    "best_epoch": 5,
+    "seconds": 19.12844967842102,
+    "gradient_norm_max_before_clip": 9.051655769348145,
+    "peak_allocated_MiB": 1070.3515625
+  },
+  {
+    "epoch": 6,
+    "train_loss": -0.015229592485418848,
+    "validation_loss": -0.5722966570917255,
+    "best_epoch": 6,
+    "seconds": 19.07050585746765,
+    "gradient_norm_max_before_clip": 8.354928970336914,
+    "peak_allocated_MiB": 1070.3515625
+  },
+  {
+    "epoch": 7,
+    "train_loss": -0.09482055815220927,
+    "validation_loss": -0.6220098839969063,
+    "best_epoch": 7,
+    "seconds": 19.001065254211426,
+    "gradient_norm_max_before_clip": 8.741518020629883,
+    "peak_allocated_MiB": 1081.30029296875
+  },
+  {
+    "epoch": 8,
+    "train_loss": -0.15240684634027224,
+    "validation_loss": -0.666515531509929,
+    "best_epoch": 8,
+    "seconds": 18.976046562194824,
+    "gradient_norm_max_before_clip": 8.494823455810547,
+    "peak_allocated_MiB": 1081.30029296875
+  },
+  {
+    "epoch": 9,
+    "train_loss": -0.2129108534384492,
+    "validation_loss": -0.7025393840975304,
+    "best_epoch": 9,
+    "seconds": 19.01958203315735,
+    "gradient_norm_max_before_clip": 9.521500587463379,
+    "peak_allocated_MiB": 1081.30029296875
+  },
+  {
+    "epoch": 10,
+    "train_loss": -0.260876790650083,
+    "validation_loss": -0.742600167687628,
+    "best_epoch": 10,
+    "seconds": 18.989816904067993,
+    "gradient_norm_max_before_clip": 10.75986099243164,
+    "peak_allocated_MiB": 1081.30029296875
+  },
+  {
+    "epoch": 11,
+    "train_loss": -0.31711652999030865,
+    "validation_loss": -0.7636146414794985,
+    "best_epoch": 11,
+    "seconds": 18.984460830688477,
+    "gradient_norm_max_before_clip": 10.671560287475586,
+    "peak_allocated_MiB": 1081.30029296875
+  },
+  {
+    "epoch": 12,
+    "train_loss": -0.3612316285742216,
+    "validation_loss": -0.7941666641641253,
+    "best_epoch": 12,
+    "seconds": 18.96968936920166,
+    "gradient_norm_max_before_clip": 9.715444564819336,
+    "peak_allocated_MiB": 1081.30029296875
+  },
+  {
+    "epoch": 13,
+    "train_loss": -0.4113675171567133,
+    "validation_loss": -0.8054185004755638,
+    "best_epoch": 13,
+    "seconds": 19.21203374862671,
+    "gradient_norm_max_before_clip": 10.746939659118652,
+    "peak_allocated_MiB": 1081.30029296875
+  },
+  {
+    "epoch": 14,
+    "train_loss": -0.4432367590465417,
+    "validation_loss": -0.8164614279280084,
+    "best_epoch": 14,
+    "seconds": 19.219977617263794,
+    "gradient_norm_max_before_clip": 11.284201622009277,
+    "peak_allocated_MiB": 1081.30029296875
+  },
+  {
+    "epoch": 15,
+    "train_loss": -0.47647239537889285,
+    "validation_loss": -0.8342173833010912,
+    "best_epoch": 15,
+    "seconds": 19.025261878967285,
+    "gradient_norm_max_before_clip": 10.785972595214844,
+    "peak_allocated_MiB": 1081.30029296875
+  },
+  {
+    "epoch": 16,
+    "train_loss": -0.4986369399687085,
+    "validation_loss": -0.838339127547798,
+    "best_epoch": 16,
+    "seconds": 18.945219039916992,
+    "gradient_norm_max_before_clip": 12.047016143798828,
+    "peak_allocated_MiB": 1081.30029296875
+  },
+  {
+    "epoch": 17,
+    "train_loss": -0.5304348607808936,
+    "validation_loss": -0.8616458080367679,
+    "best_epoch": 17,
+    "seconds": 19.040413856506348,
+    "gradient_norm_max_before_clip": 10.282815933227539,
+    "peak_allocated_MiB": 1081.30029296875
+  },
+  {
+    "epoch": 18,
+    "train_loss": -0.5479869380835409,
+    "validation_loss": -0.8799839379076198,
+    "best_epoch": 18,
+    "seconds": 18.914374351501465,
+    "gradient_norm_max_before_clip": 13.098204612731934,
+    "peak_allocated_MiB": 1081.30029296875
+  },
+  {
+    "epoch": 19,
+    "train_loss": -0.5651168239260391,
+    "validation_loss": -0.8917687258840948,
+    "best_epoch": 19,
+    "seconds": 35.092740535736084,
+    "gradient_norm_max_before_clip": 11.014257431030273,
+    "peak_allocated_MiB": 1149.75048828125
+  },
+  {
+    "epoch": 20,
+    "train_loss": -0.5889682807989354,
+    "validation_loss": -0.8915352050045606,
+    "best_epoch": 19,
+    "seconds": 48.9975962638855,
+    "gradient_norm_max_before_clip": 13.197205543518066,
+    "peak_allocated_MiB": 1149.75048828125
+  },
+  {
+    "epoch": 21,
+    "train_loss": -0.6076845944624678,
+    "validation_loss": -0.9045834667160034,
+    "best_epoch": 21,
+    "seconds": 26.21168541908264,
+    "gradient_norm_max_before_clip": 12.622767448425293,
+    "peak_allocated_MiB": 1149.75048828125
+  },
+  {
+    "epoch": 22,
+    "train_loss": -0.6199586787733605,
+    "validation_loss": -0.9091550596018378,
+    "best_epoch": 22,
+    "seconds": 20.31135606765747,
+    "gradient_norm_max_before_clip": 12.988982200622559,
+    "peak_allocated_MiB": 1149.75048828125
+  },
+  {
+    "epoch": 23,
+    "train_loss": -0.6454227209958137,
+    "validation_loss": -0.9291022647563978,
+    "best_epoch": 23,
+    "seconds": 22.63079023361206,
+    "gradient_norm_max_before_clip": 12.182071685791016,
+    "peak_allocated_MiB": 1149.75048828125
+  },
+  {
+    "epoch": 24,
+    "train_loss": -0.6437320336319419,
+    "validation_loss": -0.9317760501742152,
+    "best_epoch": 24,
+    "seconds": 23.521722555160522,
+    "gradient_norm_max_before_clip": 14.921430587768555,
+    "peak_allocated_MiB": 1149.75048828125
+  },
+  {
+    "epoch": 25,
+    "train_loss": -0.6583119816964224,
+    "validation_loss": -0.9444007283093824,
+    "best_epoch": 25,
+    "seconds": 24.026687383651733,
+    "gradient_norm_max_before_clip": 12.923477172851562,
+    "peak_allocated_MiB": 1149.75048828125
+  },
+  {
+    "epoch": 26,
+    "train_loss": -0.6763827632176759,
+    "validation_loss": -0.946646845439686,
+    "best_epoch": 26,
+    "seconds": 23.56796884536743,
+    "gradient_norm_max_before_clip": 12.775721549987793,
+    "peak_allocated_MiB": 1149.75048828125
+  },
+  {
+    "epoch": 27,
+    "train_loss": -0.6872978346649854,
+    "validation_loss": -0.955467674692016,
+    "best_epoch": 27,
+    "seconds": 23.71625590324402,
+    "gradient_norm_max_before_clip": 15.464982032775879,
+    "peak_allocated_MiB": 1149.75048828125
+  },
+  {
+    "epoch": 28,
+    "train_loss": -0.6960841047172158,
+    "validation_loss": -0.9670623621172572,
+    "best_epoch": 28,
+    "seconds": 23.64835834503174,
+    "gradient_norm_max_before_clip": 14.745036125183105,
+    "peak_allocated_MiB": 1149.75048828125
+  },
+  {
+    "epoch": 29,
+    "train_loss": -0.7065453185969081,
+    "validation_loss": -0.9752062244683154,
+    "best_epoch": 29,
+    "seconds": 23.6520357131958,
+    "gradient_norm_max_before_clip": 15.21716594696045,
+    "peak_allocated_MiB": 1149.75048828125
+  },
+  {
+    "epoch": 30,
+    "train_loss": -0.7191940473079086,
+    "validation_loss": -0.9722933569941447,
+    "best_epoch": 29,
+    "seconds": 23.175222396850586,
+    "gradient_norm_max_before_clip": 13.126228332519531,
+    "peak_allocated_MiB": 1149.75048828125
+  }
+]

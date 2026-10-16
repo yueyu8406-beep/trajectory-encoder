@@ -1,0 +1,64 @@
+{
+  "dataset": "petchthwr/ATFMTraj",
+  "repository_public": true,
+  "gated": false,
+  "license": "mit",
+  "public_commit": "a8a5b352012276cfaf35c32c0ca7a86a92e3ac6b",
+  "metadata_url": "https://huggingface.co/api/datasets/petchthwr/ATFMTraj",
+  "tree_url": "https://huggingface.co/api/datasets/petchthwr/ATFMTraj/tree/main?recursive=true&expand=false",
+  "checked_utc": "2026-10-16T11:07:44.229Z",
+  "sources": [
+    {
+      "filename": "RKSIa_TRAIN_X.tsv",
+      "local_sha256": "0813fca6302a964e0d097013ce83436974c0b167d78a7660c1016936815681ad",
+      "public_lfs_sha256": "0813fca6302a964e0d097013ce83436974c0b167d78a7660c1016936815681ad",
+      "bytes": 240626418,
+      "public_bytes": 240626418,
+      "matched": true
+    },
+    {
+      "filename": "RKSIa_TRAIN_Y.tsv",
+      "local_sha256": "22de8dc189c389958a64079ee076535708947f6fc3c57abf4069c3c5b5339bb1",
+      "public_lfs_sha256": "22de8dc189c389958a64079ee076535708947f6fc3c57abf4069c3c5b5339bb1",
+      "bytes": 246035621,
+      "public_bytes": 246035621,
+      "matched": true
+    },
+    {
+      "filename": "RKSIa_TRAIN_Z.tsv",
+      "local_sha256": "023e3a377aaa85b99f88ef08a501967f9f8ce59e188d555d9cd5d7b78abf81df",
+      "public_lfs_sha256": "023e3a377aaa85b99f88ef08a501967f9f8ce59e188d555d9cd5d7b78abf81df",
+      "bytes": 247306267,
+      "public_bytes": 247306267,
+      "matched": true
+    },
+    {
+      "filename": "RKSIa_TEST_X.tsv",
+      "local_sha256": "3a7a7cfc476a71f8a816dbb89ca89183ea68c516cb042dceca61b0cdf8c80e2c",
+      "public_lfs_sha256": "3a7a7cfc476a71f8a816dbb89ca89183ea68c516cb042dceca61b0cdf8c80e2c",
+      "bytes": 240140257,
+      "public_bytes": 240140257,
+      "matched": true
+    },
+    {
+      "filename": "RKSIa_TEST_Y.tsv",
+      "local_sha256": "de8cc091c64f59584ec3ab4d1281e1a1e69837d43b921aca2cf95668ac85a316",
+      "public_lfs_sha256": "de8cc091c64f59584ec3ab4d1281e1a1e69837d43b921aca2cf95668ac85a316",
+      "bytes": 245434314,
+      "public_bytes": 245434314,
+      "matched": true
+    },
+    {
+      "filename": "RKSIa_TEST_Z.tsv",
+      "local_sha256": "52bacec502c91363af40fef6933b74f03eec079f724d307ba38825f2bdebf5a7",
+      "public_lfs_sha256": "52bacec502c91363af40fef6933b74f03eec079f724d307ba38825f2bdebf5a7",
+      "bytes": 246735385,
+      "public_bytes": 246735385,
+      "matched": true
+    }
+  ],
+  "all_six_sources_match": true,
+  "stats_git_sha1": "958641dae42c9d9b06b92847f326536e803fe792",
+  "stats_matches_public": true,
+  "publication_repository": "https://github.com/yueyu8406-beep/trajectory-encoder"
+}
