@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": [
+    "Transformer causal prefix",
+    "all-masked prefix has no future-key leakage",
+    "padding invariance",
+    "token L2 norm",
+    "flat-SNN analytical reference",
+    "chunked/full loss value and gradient",
+    "singleton exclusion",
+    "signed GeM equation",
+    "RDP segment identity",
+    "split group disjointness",
+    "train-only z-score",
+    "checkpoint reload",
+    "CUDA bf16 finite output"
+  ],
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "data_sha256": "bdd1bfdeb1e91f0afa831984496be16a59beaa27ecb1625d7697678a3ee5999b",
+  "note": "Forward-difference features themselves use the next sampled point, as required by PLAN.md; causality check applies to the Transformer on supplied features."
+}

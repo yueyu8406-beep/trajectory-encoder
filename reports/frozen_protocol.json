@@ -1,0 +1,42 @@
+{
+  "stage": "before_training",
+  "code_sha256": "95b5c67853950df7fece2ef1c85050a3543881e48037bb4bfde2849543b5b326",
+  "screening": [
+    {
+      "run_id": "d8_e120_t0p01_s42",
+      "dimension": 8,
+      "epsilon": 120.0,
+      "temperature": 0.01,
+      "seed": 42
+    },
+    {
+      "run_id": "d8_e120_t0p05_s42",
+      "dimension": 8,
+      "epsilon": 120.0,
+      "temperature": 0.05,
+      "seed": 42
+    },
+    {
+      "run_id": "d8_e1200_t0p01_s42",
+      "dimension": 8,
+      "epsilon": 1200.0,
+      "temperature": 0.01,
+      "seed": 42
+    },
+    {
+      "run_id": "d8_e1200_t0p05_s42",
+      "dimension": 8,
+      "epsilon": 1200.0,
+      "temperature": 0.05,
+      "seed": 42
+    }
+  ],
+  "batch_size": 16,
+  "concurrency": 2,
+  "checkpoint_rule": "minimum validation flat-SNN loss within each run",
+  "hyperparameter_rule": "maximum validation geometric-proxy ridge R2 mean across four targets, global and within-STAR, sum pooling",
+  "dimension_rule": "maximum three-seed mean of same validation score, sum pooling; lower dimension breaks exact ties",
+  "representative_seed_rule": "median validation-score seed of selected dimension",
+  "pooling_rule": "sum is main; mean and signed GeM-p2 are sensitivity analyses",
+  "TEST": "only after all choices are frozen; no TEST-driven revisions"
+}

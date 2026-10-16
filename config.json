@@ -1,0 +1,19 @@
+{
+  "experiment_version": "plan3_fresh_20261016_v1",
+  "dataset": "ATFMTraj_RKSIa",
+  "preprocessing": {
+    "r_max_m": 120000.0,
+    "stride_s": 5,
+    "include_endpoint": true,
+    "min_points": 30,
+    "rdp_epsilon_m": [120.0, 1200.0],
+    "validation_fraction_of_official_train": 0.15,
+    "split_seed": 2026,
+    "near_duplicate_grid_m": 50.0,
+    "near_duplicate_signature_points": 32
+  },
+  "model": {"input_dim": 9, "model_dim": 256, "ffn_dim": 512, "heads": 4, "layers": 4, "dropout": 0.35, "mask_probability": 0.2},
+  "training": {"epochs": 30, "learning_rate": 0.00001, "weight_decay": 0.00001, "temperatures": [0.01, 0.05], "seeds": [42, 43, 44], "dimensions": [8, 4, 16], "batch_candidates": [8, 16], "amp": "bf16", "gradient_clip": 1.0, "loss_chunk_size": 512, "full_loss_token_limit": 7000, "cpu_threads_per_worker": 2, "max_parallel_training_workers": 2},
+  "evaluation": {"pooling": ["sum", "mean", "gem2"], "pooled_l2_normalize": false, "ridge_alphas": [0.01, 0.1, 1.0, 10.0, 100.0], "targets": ["path_m", "curvature_rad", "sinuosity", "duration_s"], "minimum_group_train": 50, "minimum_group_validation": 10, "minimum_group_test": 20, "pair_sample_limit": 1500, "collapse_variance_threshold": 1e-8, "selection_pooling": "sum", "selection_score": "mean_global_and_within_STAR_validation_proxy_R2_equal_weight"},
+  "upstream": {"repository": "https://github.com/petchthwr/ATSCC", "commit": "789ccd72b7496b52e03df7d8599d8c9e6659bdb9"}
+}
